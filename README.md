@@ -10,7 +10,7 @@ This will help everyone keep track of all those little things you forget to do w
 # Cloud DataBase
 This project uses MongoDB Atlas hosted on AWS. The Database is non relational using Two Collections inside of its database for user information and another for user data. The Database will query the user data collection once a user has been authenticated and the program will only permit them change their own entry. There was no security built in mind when designing this besides a few simple things. The database is designed that only a user authenticated with its passowrd and then by its username will change the enrty associated with that username.
 
-[Software Demo Video](https://youtu.be/F8iRy9H1Ubw)
+[Software Demo Video](https://youtu.be/mGshejs1pGs)
 
 # Development Environment
 Enviornment: \
@@ -36,7 +36,11 @@ Built on Pixel 6a
 
 # Future Work
 
+* add authentication server that the Database piggy backs for more security
+* new authentication tokens and session tokens 
+* Change user data structure for security and orginization
 * Improve the scheduling features
 * Saves to local storage (which makes the app pointless till thats added)
 * Add Styles and Infographics
 * Overhaul Forms
+
