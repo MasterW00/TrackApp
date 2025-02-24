@@ -46,7 +46,7 @@ class MyAppState extends ChangeNotifier{
   var db;
   //connect to database
   Future<void> connect() async{  
-    db = await mongo.Db.create("mongodb+srv://jaredfarnbach:mnbvcxz12@ground.7yok2.mongodb.net/TrackUsers?retryWrites=true&w=majority");
+    db = await mongo.Db.create("******just probably a good idea because i forgot to remove it initally but it might be too late******");
     await db.open();
     print('Connected to the database');
   }

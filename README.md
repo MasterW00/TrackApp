@@ -7,25 +7,32 @@ In the app you start by adding new tracks. These tracks are things in your life 
 This will help everyone keep track of all those little things you forget to do with all the big stuff that happens. It will also keep you on task and you can move at your own pace!
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
 
+# Cloud DataBase
+This project uses MongoDB Atlas hosted on AWS. The Database is non relational using Two Collections inside of its database for user information and another for user data. The Database will query the user data collection once a user has been authenticated and the program will only permit them change their own entry. There was no security built in mind when designing this besides a few simple things. The database is designed that only a user authenticated with its passowrd and then by its username will change the enrty associated with that username.
+
 [Software Demo Video](https://youtu.be/F8iRy9H1Ubw)
 
 # Development Environment
-BuildTools: \
-Visual Studio Code \
-Flutter \
-Dart \
-Android Studio \
-Compatible with all platforms \
-Build for Pixel 6a 
-
 Enviornment: \
+Dart \
+Mongo_DB \
+Android Studio \
+Flutter \
+Mongo_Dart \
+
+Build tools: \
+Visual Studio Code \
 Flutter SDK standard enviornment \
 Android Studio standard enviornment to fulfill Flutter required dependancies \
-Dart language 
+MongoDB Atlas and Compass \
+Compatible with all platforms \
+Built on Pixel 6a
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 * [Flutter Dev](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://docs.flutter.dev/get-started/install&ved=2ahUKEwiB6ef_zrOLAxUsK0QIHTQ4CBgQFnoECAwQAQ&usg=AOvVaw0_DysGRxe6bHMb0c8Whvun)
+* [MongoDB] (https://www.mongodb.com)
+* [Mongo_Dart] (https://pub.dev/packages/mongo_dart)
 
 # Future Work
 
